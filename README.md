@@ -2,7 +2,7 @@
 
 The app uses the OpenAI ChatGPT independent publisher connector.
 
-This was inspired from (Add OpenAI Capabilities to your Power Platform solutions)[https://www.youtube.com/watch?v=AVK7BUmTGvs&t=1062s] [Robin Rosengrün](https://twitter.com/power_r2)
+This was inspired from [Add OpenAI Capabilities to your Power Platform solutions](https://www.youtube.com/watch?v=AVK7BUmTGvs&t=1062s) by [Robin Rosengrün](https://twitter.com/power_r2)
 
 The prompt used to send to chatGPT is "Generate a JSON dataset of 10 pub quiz questions. Provide each question entry in proper JSON format with a 'question' field, an 'options' field consisting of an array of 4 possible answers. Additionally, ensure that each option includes an 'answer' field with the text of the option, a 'selected' field initialized to false indicating whether the option has been chosen, and a 'correct' field indicating whether the answer is correct"
 
